@@ -35,5 +35,6 @@ public abstract  class User {
         System.out.println("Role: " + role);
     }
 
-    public abstract String getRole();
+    public abstract String getRole();//Abastract Method
+    public abstract String JobDes(); //Abastract Method
 }

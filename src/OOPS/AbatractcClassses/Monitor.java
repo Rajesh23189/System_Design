@@ -2,7 +2,7 @@ package OOPS.AbatractcClassses;
 
 import java.util.List;
 
-public class Monitor extends User{
+public  class Monitor extends User{
     private String section;
     private String dutyShift;
 
@@ -29,5 +29,10 @@ public class Monitor extends User{
     @Override
     public String getRole() {
         return role;
+    }
+
+    @Override
+    public String JobDes(){
+        return "Help To Pr";
     }
 }

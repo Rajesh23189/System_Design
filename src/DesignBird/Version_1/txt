@@ -1,0 +1,5 @@
+This follow SRP and O/C principle : we create Bird class as abstract and also method fly() , make_sound()
+
+But , Disadvantage is following SRP crating lot of class
+
+But Where Problem Is : penguin can't fly  It handel in version_3 design

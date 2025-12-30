@@ -29,4 +29,9 @@ public class Student extends User{
     public String getRole() {
         return role;
     }
+
+    @Override
+    public String JobDes(){
+        return "Study Heard";
+    }
 }

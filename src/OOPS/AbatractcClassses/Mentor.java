@@ -32,4 +32,9 @@ public class Mentor extends User{
     public String getRole() {
         return role;
     }
+    @Override
+    public String JobDes(){
+        return " Guide Student";
+    }
+
 }
